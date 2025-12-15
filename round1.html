@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Decoder</title>
+    <link rel="stylesheet" href="round1.css">
+</head>
+<body>
+    <div class="container">
+    <p class="text title">Welcome to the upside down world !</p>
+    <p class="text info">A flag is hidden in the given image.</p>
+    <p class="text hint">Go ahead and decode.</p>
+
+    <a href="stego.png" target="_blank" class="image-link">
+        🔗 Click here to view the image
+    </a>
+
+    <!-- Input + button -->
+    <div class="input-group">
+        <input 
+            type="text" 
+            id="flagInput"
+            class="flag-input"
+            placeholder="Enter the flag here"
+        >
+        <span id="result"></span>
+    </div>
+
+    <button class="submit-btn" onclick="checkFlag()">Submit</button>
+
+    <p class="note">
+        Note: Return flag in the form <span>flag&#123;...&#125;</span>
+    </p>
+</div>
+<script src="round1.js"></script>
+</body>
+</html>

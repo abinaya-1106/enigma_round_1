@@ -1,0 +1,115 @@
+html{
+    height:100%;
+    margin:0;
+}
+body{
+    height:100%;
+    margin:0;
+    background-color:#0f0f0f;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+    height:600px;
+    width:400px;
+    background-color:#0f0f0f;
+    border:3px solid rgb(209, 33, 33);
+    box-shadow:
+    0 0 10px rgba(209, 33, 33, 1),
+    0 0 25px rgba(209, 33, 33, 0.8),
+    0 0 50px rgba(209, 33, 33, 0.6);
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Different red shades */
+.title {
+    color: #ff2a2a;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.info {
+    color: #e11d48;
+    font-size: 16px;
+}
+
+.hint {
+    color: #f87171;
+    font-size: 15px;
+}
+
+/* Image link */
+.image-link {
+    color: #ff4d4d;
+    text-decoration: none;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.image-link:hover {
+    text-decoration: underline;
+    color: #ff1a1a;
+}
+
+/* Input box */
+.flag-input {
+    width: 90%;
+    padding: 10px;
+    background: #0f0f0f;
+    border: 2px solid #dc2626;
+    color: #fca5a5;
+    outline: none;
+    font-size: 14px;
+}
+
+.flag-input::placeholder {
+    color: #7f1d1d;
+}
+
+/* Note */
+.note {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #fb7185;
+}
+
+.note span {
+    color: #ff0000;
+    font-weight: bold;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+#result {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Submit button */
+.submit-btn {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background: transparent;
+    color: #ff4d4d;
+    border: 2px solid #dc2626;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background: #dc2626;
+    color: #0f0f0f;
+}
