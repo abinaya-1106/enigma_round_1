@@ -3,7 +3,7 @@ function checkFlag() {
     const input = document.getElementById("flagInput");
     const result = document.getElementById("result");
 
-    const correctFlag = "flag{Eleven}";
+    const correctFlag = "IE{Eleven}";
 
     if (input.value.trim() === correctFlag) {
         input.style.borderColor = "#22c55e";
